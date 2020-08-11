@@ -1,0 +1,140 @@
+
+// Full Page styles
+article {
+  height: 100%;
+  font-size: 14px;
+}
+
+section {
+  border-bottom: 3px solid $light-gray;
+  padding-bottom: 30px;
+}
+
+.col h2 {
+  font-size: 15px;
+  font-weight: $heavy;
+  font-family: $serif;
+  padding: 2px;
+  z-index: 99;
+}
+
+.col h2:hover {
+  text-decoration: underline;
+}
+
+.byline {
+  color: $gray;
+  font-weight: $heavy;
+  padding: 5px;
+}
+
+.comment-link {
+  color: blue;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.comment-link a:hover {
+  text-decoration: underline;
+}
+
+// Main Article Styles
+
+.main-article h2 {
+  font-size: 30px;
+
+}
+.main-article h2:hover {
+  cursor: pointer;
+}
+
+.headline-points {
+  list-style: disc;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.headline-points li {
+  padding: 5px;
+}
+
+// Middle Article Style
+.middle-article p {
+  padding: 5px;
+}
+
+.middle-article h2:hover {
+  cursor: pointer;
+}
+
+
+// Opinion Column
+.opinion-article {
+  padding: 3px;
+}
+
+.opinion-article p {
+  padding: 5px;
+}
+
+.opinion-section h2:hover {
+  cursor: pointer;
+}
+
+.opinion-section h3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+  font-size: 15px;
+}
+
+.opinion-article h4 {
+  font-weight: lighter;
+  margin: 0;
+  padding: 2px;
+  padding-bottom: 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.opinion-article ul {
+  list-style: disc;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.opinion-article ul li {
+  padding: 5px;
+  font-weight: $heavy;
+}
+
+.opinion-article ul li:hover {
+  text-decoration: underline;
+}
+
+.signup-article {
+  width: 100%;
+}
+
+.signup-form {
+  align-items: center;
+}
+
+.signup-form input[type="text"] {
+  border: 1px solid $gray;
+  height: 30px;
+}
+
+.signup-form button {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  height: 30px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.signup-form p {
+  color: $gray;
+  float: left;
+}
