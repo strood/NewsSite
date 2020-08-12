@@ -1,24 +1,5 @@
-# README
+# News Site
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- Built as a css project on appacademy, same as AA-Times, this version is just built on postgresql so it could be hosted more easily to demo. 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Full responsive grid layout based on washington post. 
